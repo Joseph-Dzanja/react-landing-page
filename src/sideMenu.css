@@ -1,0 +1,34 @@
+.sideMenu{
+    position: fixed;
+    z-index: 10;
+    height: 100vh;
+    width: 40%;
+    margin-left: -40%;
+    padding: 1em 0;
+    background-color: white;
+    border-right: 1px solid black;
+}
+ul{
+    padding: 0;
+}
+.sideMenuContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+.sNavLink{
+    margin-bottom: 1em;
+    padding: .4em 1em;
+    border-radius: 5px;
+}
+.sNavLink:hover{
+    background-color: lightgray;
+}
+.sNavLink > a{
+    display: block;
+    cursor: pointer;
+}
+.sideMenuLogo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
