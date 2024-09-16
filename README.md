@@ -1,2 +1,2 @@
 # react-landing-page
-React landing page
+React landing page.
